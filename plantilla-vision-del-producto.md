@@ -48,9 +48,9 @@ Actualmente, este proceso se puede realizar mediante diferentes herramientas y f
 
 
 **Un conflicto entre usuarios:
-Un estudiante puede querer cancelar o reprogramar una cita cuando su disponibilidad cambia, mientras que el psicólogo necesita mantener una agenda estable para aprovechar sus horarios y atender a otros estudiantes. Por ejemplo, si un estudiante cancela una cita poco antes de la hora programada, el psicólogo puede quedarse con un espacio que ya no puede utilizar para atender a otra persona. Sin embargo, el estudiante también necesita tener la posibilidad de cancelar cuando realmente no pueda asistir.
+Un estudiante puede querer cancelar o reprogramar una cita cuando su disponibilidad cambia, mientras que el psicólogo necesita mantener una agenda estable para aprovechar sus horarios y atender a otros estudiantes. Por ejemplo, si un estudiante cancela una cita poco antes de la hora programada, el psicólogo puede quedarse con un espacio que ya no puede utilizar para atender a otra persona. Sin embargo, el estudiante también necesita tener la posibilidad de cancelar cuando realmente no pueda asistir.**
 
-Esta decisión de diseño que surge de este conflicto es cómo manejar las cancelaciones y reprogramaciones para permitir cierta flexibilidad al estudiante sin afectar innecesariamente la organización de la agenda del psicólogo.**
+**Esta decisión de diseño que surge de este conflicto es cómo manejar las cancelaciones y reprogramaciones para permitir cierta flexibilidad al estudiante sin afectar innecesariamente la organización de la agenda del psicólogo.**
 
 ---
 
