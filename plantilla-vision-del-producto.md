@@ -42,15 +42,15 @@ Actualmente, este proceso se puede realizar mediante diferentes herramientas y f
 
 | Tipo de usuario | Qué necesita del sistema | Qué le preocupa |
 |---|---|---|
-| | | |
-| | | |
-| | | |
+|Estudiante|Solicitar y agendar citas, consultar horarios disponibles, conocer quién será su psicólogo, consultar el tipo de atención, recibir recordatorios y cancelar o reprogramar sus citas.|Que el proceso sea sencillo, encontrar horarios que se adapten a su disponibilidad y que su información personal sea privada.|
+|Psicólogo/terapeuta|Administrar sus horarios, consultar sus citas, conocer los estudiantes que atenderá y recibir notificaciones sobre nuevas citas, cancelaciones o cambios.|Mantener su agenda organizada, evitar citas empalmadas o espacios desaprovechados y proteger la información de los estudiantes.|
+|Personal administrativo|Gestionar las solicitudes de atención, organizar horarios y profesionales y apoyar en la coordinación general del servicio.|Que las citas estén correctamente organizadas, evitar errores y tener acceso únicamente a la información necesaria para realizar sus funciones.|
 
-*Instrucción: necesitas al menos dos tipos de usuario con necesidades distintas. Si los dos quieren exactamente lo mismo, probablemente sean el mismo usuario.*
 
-**Un conflicto entre usuarios:**
+**Un conflicto entre usuarios:
+Un estudiante puede querer cancelar o reprogramar una cita cuando su disponibilidad cambia, mientras que el psicólogo necesita mantener una agenda estable para aprovechar sus horarios y atender a otros estudiantes. Por ejemplo, si un estudiante cancela una cita poco antes de la hora programada, el psicólogo puede quedarse con un espacio que ya no puede utilizar para atender a otra persona. Sin embargo, el estudiante también necesita tener la posibilidad de cancelar cuando realmente no pueda asistir.
 
-*Instrucción: describe algo que un usuario quiera y que a otro le estorbe. Ahí está tu primera decisión de diseño real.*
+Esta decisión de diseño que surge de este conflicto es cómo manejar las cancelaciones y reprogramaciones para permitir cierta flexibilidad al estudiante sin afectar innecesariamente la organización de la agenda del psicólogo.**
 
 ---
 
