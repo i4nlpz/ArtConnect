@@ -8,9 +8,9 @@
 
 ---
 
-**Autor: Ian Adolfo López Maldonado**
-**Fecha de la última versión: 17/08/26**
-**Repositorio: IngenieriaEnSoftware**
+**Autor: Ian Adolfo López Maldonado
+Fecha de la última versión: 17/08/26
+Repositorio: IngenieriaEnSoftware**
 
 ---
 
@@ -29,7 +29,7 @@ Mente Campus es un sistema que facilita el acceso de los estudiantes al servicio
 
 **Los usuarios que podrían beneficiarse de este sistema serían los alumnos, que usarían el sistema para agendar sus citas, consutar los horarios disponibles, conocer quién será su psicólogo, etc.
 EL psicólogo o terapeuta para administrar su disponibilidad, consultar sus citas, conocer los estudiantes que atenderá y recibir notificaciones sobre nuevas citas, cancelaciones o cambios.
-Y el personal encargado para gestionar las solicitudes de atención, horarios y profesionales, además de apoyar en la organización general del servicio.
+Y el personal encargado para gestionar las solicitudes de atención, horarios y profesionales, además de apoyar en la organización general del servicio.**
 
 **El problema:**
 
