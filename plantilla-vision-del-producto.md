@@ -8,29 +8,33 @@
 
 ---
 
-**Autor:**
-**Fecha de la última versión:**
-**Repositorio:**
+**Autor: Ian Adolfo López Maldonado**
+**Fecha de la última versión: 17/08/26**
+**Repositorio: IngenieriaEnSoftware**
 
 ---
 
 ## 1. Descripción del sistema
 
-*Instrucción: nombre del sistema y qué hace, en un párrafo que cualquier persona entienda sin ser del área. Si necesitas usar una palabra técnica para explicarlo, todavía no está listo.*
+**Nombre del sistema: Mente Campus**
 
-**Nombre del sistema:**
-
-**Descripción:**
+**Descripción: 
+Mente Campus es un sistema que facilita el acceso de los estudiantes al servicio de atención psicológica de su universidad. Permite solicitar y agendar citas, consultar la información de las sesiones y del profesional asignado, recibir recordatorios y gestionar cambios en las citas. También ayuda a los profesionales y al personal encargado a organizar sus horarios y atender las solicitudes de los estudiantes de manera más ordenada.**
 
 ---
 
 ## 2. Problema y usuarios
 
-*Instrucción: qué problema resuelve, a quién le sirve y, muy importante, qué hace esa gente hoy para arreglárselas sin el sistema. Esa última parte es la que revela el problema real.*
+**El problema que busca resover este sistema es centralizar y simplificar la genstión de la atención psicológica niversitaria, permitiendo que los estudiantes puedan solicitar y agendar citas, consultar la información de su sesión y recibir recordatorios, mientras que los profesionales o encargados puedan administrar sus horarios y tener organizada su agenda. Además, el sistema podría mostrar la información como el profesional asignado y el tipo de atención correspondiente, ya que no todos los estudiantes requieren el mismo tipo o duración de atención.**
+
+**Los usuarios que podrían beneficiarse de este sistema serían los alumnos, que usarían el sistema para agendar sus citas, consutar los horarios disponibles, conocer quién será su psicólogo, etc.
+EL psicólogo o terapeuta para administrar su disponibilidad, consultar sus citas, conocer los estudiantes que atenderá y recibir notificaciones sobre nuevas citas, cancelaciones o cambios.
+Y el personal encargado para gestionar las solicitudes de atención, horarios y profesionales, además de apoyar en la organización general del servicio.
 
 **El problema:**
 
-**Cómo se resuelve hoy sin el sistema:**
+**Cómo se resuelve hoy sin el sistema:
+Actualmente, este proceso se puede realizar mediante diferentes herramientas y formas comunicación. Para empezar con este proceso de ayuda psicológica, el estudiante debe llenar un formulario especificando las razones por las cuales este busca ayuda y agendando una cita introductoria, y posteriormente se comunica con el personal encargado para conocer la disponibilidad y agendar una cita en el horario en el que más se le acomode al estudiante. Si se necesita cancelar o modificar la cita, nuevamente se debe comunicar con el personal encargado.**
 
 **Usuarios del sistema:**
 
