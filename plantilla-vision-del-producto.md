@@ -1,56 +1,50 @@
 # Visión del producto
 
-> **Plantilla del curso · Ingeniería de Software I · SIS3407**
-> Este documento es el primer entregable del semestre y la base de todo lo que viene después.
-> Se entrega completo en la **semana 4** y se presenta ante el grupo.
->
-> **Cómo usarla:** copia este archivo a tu repositorio como `docs/vision-del-producto.md`, borra las instrucciones en gris de cada apartado y escribe tu contenido en su lugar. Conserva los títulos.
-
 ---
 
 **Autor: Ian Adolfo López Maldonado**
 
-**Fecha de la última versión: 17/08/26**
+**Fecha de la última versión: 18/08/26**
 
-**Repositorio: IngenieriaEnSoftware**
+**Repositorio: ArtConnect**
 
 ---
 
 ## 1. Descripción del sistema
 
-**Nombre del sistema: Mente Campus**
+**Nombre del sistema: ArtConnect**
 
 **Descripción: 
-Mente Campus es un sistema que facilita el acceso de los estudiantes al servicio de atención psicológica de su universidad. Permite solicitar y agendar citas, consultar la información de las sesiones y del profesional asignado, recibir recordatorios y gestionar cambios en las citas. También ayuda a los profesionales y al personal encargado a organizar sus horarios y atender las solicitudes de los estudiantes de manera más ordenada.**
+ArtConnect es un sistema que facilita la contratación y gestión de trabajos artísticos personalizados entre clientes y artistas. permite que los clientes soliciten obras, ya sea ilustraciones, pinturas, retratos o diseños, que puedan saber las condiciones del trabajo y den seguimiento a su encargo, mientras que los artistas puedan organizar sus solicitudes, fechas de entrega y tengan comunicación con sus clientes.**
 
 ---
 
 ## 2. Problema y usuarios
 
-**El problema que busca resover este sistema es centralizar y simplificar la gestión de la atención psicológica niversitaria, permitiendo que los estudiantes puedan solicitar y agendar citas, consultar la información de su sesión y recibir recordatorios, mientras que los profesionales o encargados puedan administrar sus horarios y tener organizada su agenda. Además, el sistema podría mostrar la información como el profesional asignado y el tipo de atención correspondiente, ya que no todos los estudiantes requieren el mismo tipo o duración de atención.**
+### El Problema
+
+**Actualmente los encargos artísticos suelen gestionarse mediante redes sociales, mensajes y conversaciones informales. Esto puede provocar que la información sobre el precio, las características de la obra, las fechas de entrega y los cambios solicitados queden dispersos.**
 
 **Los usuarios que podrían beneficiarse de este sistema serían los alumnos, que usarían el sistema para agendar sus citas, consutar los horarios disponibles, conocer quién será su psicólogo, etc.
 EL psicólogo o terapeuta para administrar su disponibilidad, consultar sus citas, conocer los estudiantes que atenderá y recibir notificaciones sobre nuevas citas, cancelaciones o cambios.
 Y el personal encargado para gestionar las solicitudes de atención, horarios y profesionales, además de apoyar en la organización general del servicio.**
 
-**El problema:**
-
-**Cómo se resuelve hoy sin el sistema:
-Actualmente, este proceso se puede realizar mediante diferentes herramientas y formas comunicación. Para empezar con este proceso de ayuda psicológica, el estudiante debe llenar un formulario especificando las razones por las cuales este busca ayuda y agendando una cita introductoria, y posteriormente se comunica con el personal encargado para conocer la disponibilidad y agendar una cita en el horario en el que más se le acomode al estudiante. Si se necesita cancelar o modificar la cita, nuevamente se debe comunicar con el personal encargado.**
+### Cómo se resuelve hoy sin el sistema
+**El cliente normalmente contacta el artista mediante redes sociales (ya sea twitter, instagram facebook, etc.) o servicios de mensajería, explica lo que quiere y recibe una cotización. Luego, ambos acuerdan el precio, detalles y la fecha de entrega mediante mensajes. Durante el proceso, el artista puede enviar avances para recibir comentarios y el cliente solicita modificaciones. Los pagos y anticipos también pueden coordinarse por separado. Si surge algún cambio o desacuerdo, esto se debe revisar manualmente para determinar qué se había acordado**
 
 **Usuarios del sistema:**
 
 | Tipo de usuario | Qué necesita del sistema | Qué le preocupa |
 |---|---|---|
-|Estudiante|Solicitar y agendar citas, consultar horarios disponibles, conocer quién será su psicólogo, consultar el tipo de atención, recibir recordatorios y cancelar o reprogramar sus citas.|Que el proceso sea sencillo, encontrar horarios que se adapten a su disponibilidad y que su información personal sea privada.|
-|Psicólogo/terapeuta|Administrar sus horarios, consultar sus citas, conocer los estudiantes que atenderá y recibir notificaciones sobre nuevas citas, cancelaciones o cambios.|Mantener su agenda organizada, evitar citas empalmadas o espacios desaprovechados y proteger la información de los estudiantes.|
-|Personal administrativo|Gestionar las solicitudes de atención, organizar horarios y profesionales y apoyar en la coordinación general del servicio.|Que las citas estén correctamente organizadas, evitar errores y tener acceso únicamente a la información necesaria para realizar sus funciones.|
+|Cliente|Solicitar una obra, consultar precios y condiciones, revisar avances, solicitar cambios y conocer el estado de su encargo.|Que el resultado corresponda a lo acordado, conocer el costo y recibir la obra dentro del tiempo establecido.|
+|Artista|Administrar encargos, fechas de entrega, solicitudes de clientes, avances y condiciones de cada trabajo.|Que los cambios no excedan lo acordado, recibir los pagos correspondientes y cumplir con sus fechas de entrega.|
+|Administrador|Supervisar los encargos y resolver problemas entre clientes y artistas.|Que los acuerdos se respeten y que el servicio funcione correctamente.|
 
 
-**Un conflicto entre usuarios:
-Un estudiante puede querer cancelar o reprogramar una cita cuando su disponibilidad cambia, mientras que el psicólogo necesita mantener una agenda estable para aprovechar sus horarios y atender a otros estudiantes. Por ejemplo, si un estudiante cancela una cita poco antes de la hora programada, el psicólogo puede quedarse con un espacio que ya no puede utilizar para atender a otra persona. Sin embargo, el estudiante también necesita tener la posibilidad de cancelar cuando realmente no pueda asistir.**
+**Un conflicto entre usuarios**
 
-**Esta decisión de diseño que surge de este conflicto es cómo manejar las cancelaciones y reprogramaciones para permitir cierta flexibilidad al estudiante sin afectar innecesariamente la organización de la agenda del psicólogo.**
+**El cliente puede querer realizar varias modificaciones a una obra hasta quedar satisfecho, mientras que el artista necesita limitar los cambios para evitar que un trabajo termine requiriendo mucho más tiempo del acordado.**
+
 
 ---
 
