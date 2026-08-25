@@ -50,7 +50,31 @@ Y el personal encargado para gestionar las solicitudes de atención, horarios y 
 
 ## 3. Alcance
 
-###
+### Cinco cosas que el sistema SÍ hace
+
+**1.- Permite a los clientes solicitar trabajos artísticos personalizados indicando el tipo de obra, característica y fecha deseada**
+
+**2.- Permite a los artistas enviar cotizaciones con el precio, condiciones, tiempo estimado y características del trabajo**
+
+**3.- Permite a los clientes revisar y aprobar una cotización antes de que el artista comience el trabajo**
+
+**4.- Permite a los artistas publicar avances de una obra para que el cliente pueda revisarlos y slicitar modificaciones**
+
+**5.- Permite a clientes y artistas consultar el estado de un encargo, incluyendo sus fechas, acuerdos, avances y solicitudes de cambio**
+
+### Tres cosas que el sistema explícitamente NO hace
+
+**1.- No crea ni edita las obras artísticas; Solo permite solicitar, acordar y dar seguimiento al trabajo, la creación de la obra el artista la realiza fuera de los parámetros del sistema**
+
+**2.- No determina automáticamente el precio de una obra; El artista es quien establece el precio de acuerdo con las características y condiciones del encargo**
+
+**3.- No funciona como una red social para artistas: No busca permitir publicaciones generales, seguidores, comentarios o contenido que no esté relacionado con un encargo**
+
+### Razón para la exlusion - No crea ni edita las obras artísticas -
+**El sistema no crea ni edita las obras artísticas porque su objetivo es facilitar la contratación y seguimiento de los encargos, no proporcionar herramientas profesionales de edición o creación. Incluir herramientas de dibujo o edición digial aumentaría considerablemente el alcance del proyecto y lo convertiría en un producto diferente**
+
+### Funcionalidad futura - Sistema de pagos integrado
+**Me gustaría que este sistema permitiera realizar anticipos y pagos directamente dentro de la plataforma, así como llevar un registro automático de los pagos realizados y pendientes. Solo que esta funcionalidad queda fuera del alcance del proyecto debido al tiempo disponible y a la complejidad de integrar un sistema de pagos seguros.**
 
 ### Dentro del alcance
 
