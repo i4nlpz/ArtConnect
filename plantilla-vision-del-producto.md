@@ -50,7 +50,7 @@ Y el personal encargado para gestionar las solicitudes de atención, horarios y 
 
 ## 3. Alcance
 
-*Instrucción: lo que escribes en "fuera del alcance" es lo que después evita que el proyecto crezca sin control. Sé específico: "reportes" no dice nada, "reportes de ventas mensuales exportables a PDF" sí.*
+###
 
 ### Dentro del alcance
 
