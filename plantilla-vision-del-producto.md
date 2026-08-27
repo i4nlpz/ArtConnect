@@ -25,10 +25,6 @@ ArtConnect es un sistema que facilita la contratación y gestión de trabajos ar
 
 **Actualmente los encargos artísticos suelen gestionarse mediante redes sociales, mensajes y conversaciones informales. Esto puede provocar que la información sobre el precio, las características de la obra, las fechas de entrega y los cambios solicitados queden dispersos.**
 
-**Los usuarios que podrían beneficiarse de este sistema serían los alumnos, que usarían el sistema para agendar sus citas, consutar los horarios disponibles, conocer quién será su psicólogo, etc.
-EL psicólogo o terapeuta para administrar su disponibilidad, consultar sus citas, conocer los estudiantes que atenderá y recibir notificaciones sobre nuevas citas, cancelaciones o cambios.
-Y el personal encargado para gestionar las solicitudes de atención, horarios y profesionales, además de apoyar en la organización general del servicio.**
-
 ### Cómo se resuelve hoy sin el sistema
 **El cliente normalmente contacta el artista mediante redes sociales (ya sea twitter, instagram facebook, etc.) o servicios de mensajería, explica lo que quiere y recibe una cotización. Luego, ambos acuerdan el precio, detalles y la fecha de entrega mediante mensajes. Durante el proceso, el artista puede enviar avances para recibir comentarios y el cliente solicita modificaciones. Los pagos y anticipos también pueden coordinarse por separado. Si surge algún cambio o desacuerdo, esto se debe revisar manualmente para determinar qué se había acordado**
 
