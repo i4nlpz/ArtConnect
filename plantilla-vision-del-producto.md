@@ -15,7 +15,7 @@
 **Nombre del sistema: ArtConnect**
 
 **Descripción: 
-ArtConnect es un sistema que facilita la contratación y gestión de trabajos artísticos personalizados entre clientes y artistas. permite que los clientes soliciten obras, ya sea ilustraciones, pinturas, retratos o diseños, que puedan saber las condiciones del trabajo y den seguimiento a su encargo, mientras que los artistas puedan organizar sus solicitudes, fechas de entrega y tengan comunicación con sus clientes.**
+ArtConnect es un sistema que facilita la contratación y gestión de trabajos artísticos personalizados entre clientes y artistas. Permite que los clientes soliciten obras, reciban y aprueben cotizaciones, consulten el estado de sus encargos y revisen avances, mientras que los artistas pueden recibir solicitudes, establecer las condiciones de cada trabajo, organizar sus encargos y comunicarse con sus clientes.**
 
 ---
 
@@ -23,7 +23,7 @@ ArtConnect es un sistema que facilita la contratación y gestión de trabajos ar
 
 ### El Problema
 
-**Actualmente los encargos artísticos suelen gestionarse mediante redes sociales, mensajes y conversaciones informales. Esto puede provocar que la información sobre el precio, las características de la obra, las fechas de entrega y los cambios solicitados queden dispersos.**
+**Actualmente los encargos artísticos suelen gestionarse mediante redes sociales, apps de mensajes y conversaciones informales. Esto puede provocar que la información sobre el precio, las características de la obra, las fechas de entrega y otros acuerdos queden dispersos. Como resultado de esto, tanto el cliente como el artista pueden tener dificultades para consultar qué se acordó originalmente o conocer el estado de un encargo.**
 
 ### Cómo se resuelve hoy sin el sistema
 **El cliente normalmente contacta el artista mediante redes sociales (ya sea twitter, instagram facebook, etc.) o servicios de mensajería, explica lo que quiere y recibe una cotización. Luego, ambos acuerdan el precio, detalles y la fecha de entrega mediante mensajes. Durante el proceso, el artista puede enviar avances para recibir comentarios y el cliente solicita modificaciones. Los pagos y anticipos también pueden coordinarse por separado. Si surge algún cambio o desacuerdo, esto se debe revisar manualmente para determinar qué se había acordado**
@@ -33,8 +33,8 @@ ArtConnect es un sistema que facilita la contratación y gestión de trabajos ar
 | Tipo de usuario | Qué necesita del sistema | Qué le preocupa |
 |---|---|---|
 |Cliente|Solicitar una obra, consultar precios y condiciones, revisar avances, solicitar cambios y conocer el estado de su encargo.|Que el resultado corresponda a lo acordado, conocer el costo y recibir la obra dentro del tiempo establecido.|
-|Artista|Administrar encargos, fechas de entrega, solicitudes de clientes, avances y condiciones de cada trabajo.|Que los cambios no excedan lo acordado, recibir los pagos correspondientes y cumplir con sus fechas de entrega.|
-|Administrador|Supervisar los encargos y resolver problemas entre clientes y artistas.|Que los acuerdos se respeten y que el servicio funcione correctamente.|
+|Artista|Administrar encargos, fechas de entrega, solicitudes de clientes, avances y condiciones de cada trabajo.|Que las solicitudes sean claras, que los cambios no excedan lo acordado y poder cumplir con sus fechas de entrega.|
+|Administrador|Consultar encargos, usuarios y reportes de problemas relacionados con el servicio.|Que los acuerdos registrados sean claros y que los conflictos puedan identificarse y atenderse.|
 
 
 **Un conflicto entre usuarios**
@@ -48,67 +48,63 @@ ArtConnect es un sistema que facilita la contratación y gestión de trabajos ar
 
 ### Dentro del alcance - Cinco cosas que el sistema SÍ hace
 
-1. Permite a los clientes solicitar trabajos artísticos personalizados indicando el tipo de obra, característica y fecha deseada
-2. Permite a los artistas enviar cotizaciones con el precio, condiciones, tiempo estimado y características del trabajo
-3. Permite a los clientes revisar y aprobar una cotización antes de que el artista comience el trabajo
-4. Permite a los artistas publicar avances de una obra para que el cliente pueda revisarlos y slicitar modificaciones
-5. Permite a clientes y artistas consultar el estado de un encargo, incluyendo sus fechas, acuerdos, avances y solicitudes de cambio
+1. Permite a los clientes crear solicitudes de trabajos artísticos personalizados.
+2. Permite a los artistas enviar cotizaciones con precio, condiciones y fecha estimada de entrega.
+3. Permite a los clientes aceptar o rechazar las cotizaciones recibidas.
+4. Permite a los artistas publicar avances de una obra y a los clientes revisarlos y solicitar modificaciones.
+5. Permite registrar y consultar modificaciones y acuerdos realizados durante.
 
 ### Explícitamente fuera del alcance - Tres cosas que el sistema NO hace
 
-1. No crea ni edita las obras artísticas; Solo permite solicitar, acordar y dar seguimiento al trabajo, la creación de la obra el artista la realiza fuera de los parámetros del sistema
-2. No determina automáticamente el precio de una obra; El artista es quien establece el precio de acuerdo con las características y condiciones del encargo
-3. No funciona como una red social para artistas: No busca permitir publicaciones generales, seguidores, comentarios o contenido que no esté relacionado con un encargo
+1. No procesa pagos ni anticipos entre clientes y artistas.
+2. No crea ni edita las obras artísticas
+3. No garantiza que un artista o cliente cumpla económiamente con sus obligaciones fuera de la plataforma
 
-### Por qué queda fuera: No crea ni edita las obras artísticas -
-**El sistema no crea ni edita las obras artísticas porque su objetivo es facilitar la contratación y seguimiento de los encargos, no proporcionar herramientas profesionales de edición o creación. Incluir herramientas de dibujo o edición digial aumentaría considerablemente el alcance del proyecto y lo convertiría en un producto diferente**
+### Por qué queda fuera: Exclusión de pagos
+**El procesamiento de pagos queda fuera del alcance porque requeriría implementar mecanísmos adicionales de seguridad, protección contra fraude, reembolsos y resolución de disputas. Además, implicaría una complejidad técnica y legal que no es necesaria para resolver el problema principal que aborda este sistema.**
 
-### Funcionalidad futura - Sistema de pagos integrado
-**Me gustaría que este sistema permitiera realizar anticipos y pagos directamente dentro de la plataforma, así como llevar un registro automático de los pagos realizados y pendientes. Solo que esta funcionalidad queda fuera del alcance del proyecto debido al tiempo disponible y a la complejidad de integrar un sistema de pagos seguros.**
+### Funcionalidad futura: Sistema de pagos con proteción para clientes y artistas
+**Me gustaría que este sistema pudiera recibir el pago del cliente, retenerlo durante el proceso y liberarlo al artista cuando se cumplan las condiciones acordadas. También permitiría solicitar reembolsos o iniciar disputas en caso de incumplimiento. Esta funcionalidad queda fuera del alcance actual debido a la complejidad técnica, de seguridad y de gestión de disputas que implicaría**
 
 ---
 
 ## 4. Tipo de sistema y restricciones
 
-**Tipo de sistema: Sistema de Información**
+**Tipo de sistema: Web y SaaS**
 
-**Por qué es de ese tipo: Porque este sistema permite recopilar, organizzar, consultar y actualizar información relacionada con los encargos artísticos. El sistema almacena datos e clientes, artistas, solicitudes, cotizaciones, fechas de entrega, avances y modificaciones, y permite que cada usuario consulte la información que necesita para llevar a cabo su parte del proceso.**
+**Por qué es de ese tipo: Porque este sistema permite será una plataforma accesible mediante Intenrnet que permitirá a clientes y artistas utilizar sus funciones sin neesidad de instalar el sistema en sus dispositivos. El sistema almacenará y procesará información relacionada con solicitudes, cotizaciones, acuerdos, avances y encargos.**
 
 **Atributos de calidad que impone:**
 
 | Atributo | Por qué importa en mi caso | Qué pasa si no se cumple |
 |---|---|---|
-|Seguridad|Porque manejará info. personal de clientes y artistas, además de información sobre encargos y acuerdos|Usuarios no autorizados podrían acceder o modificar información de otros usuarios|
-|Usabilidad|Porque el cliente y artista deben poder solicitar, consultar y actualizar info. sin necesitar conocimientos técnicos|Los usuarios podrían confundirse, cometer errores o preferir continuar utilizando mensajes y redes sociales|
-|Disponibilidad|Porque los usuarios necesitan consultar sus encargos, fechas y avances cuando lo necesiten, especialmente durante un trabajo en proceso|El cliente o artista podría no tener acceso a información importante sobre el encargo|
+|Seguridad|Porque almacenará info. personal, conversaciones, archivos y acuerdos entre clietes y artistas|Usuarios no autorizados podrían acceder o modificar información de otros usuarios|
+|Usabilidad|Porque el cliente y artista deben poder utilizar el sistema sin conocimientos técnicos|Los usuarios podrían confundirse, cometer errores o preferir continuar utilizando mensajes y redes sociales|
+|Integridad|Los precios, fechas, condiciones y modificaciones deben conservarse correctamente para que exista un registro confiable de los acuerdos|Podrían surgir conflictos porque el cliente y artista tendrían información diferente sobre lo acordado|
 
 **Reglas de negocio que ya identifiqué:**
 
-1. Un artista debe establecer las condiciones de un encargo antes de que el cliente pueda aprobarlo - esto incuye aspectos como el precio, características del trabajo y fecha estimada de entrega.
-2. Las modificaciones solicitadas por el cliente pueden afectar la condiciones originales del encargo - por lo que debe definirse cuándo una modificación forma parte del trabajo acordado y cuándo forma parte de un trabajo adicional.
-3. Un encargo no debe considerarse terminado hasta que el artista entregue la obra y el cliente confirme que recibió el trabajo acordado.
+1. Una cotización debe especificar las condiciones principales del encargo antes de que el cliente pueda aceptarla.
+2. Una modificación que cambie el precio, alcance o fecha de entrega debe ser aprobada por ambas partes antes de considerarse parte del encargo.
+3. Una vez aceptada una cotización, sus condiciones originales deben conservarse aunque posteriormente se realicen modificaciones.
 
 ---
 
 ## 5. Ciclo de vida elegido
 
-*Instrucción: este apartado se trabaja en la semana 3, después de ver los modelos de desarrollo. La justificación pesa más que la elección: no hay un modelo correcto, hay uno defendible para tu caso.*
+**Modelo elegido: Ágil**
 
-**Modelo elegido:**
-
-**Por qué le conviene a este proyecto:**
-
-*Instrucción: argumenta con las características reales de tu caso. Estabilidad de los requisitos, disponibilidad del cliente, nivel de riesgo, tamaño del equipo, frecuencia de entregas esperada.*
+**Por qué le conviene a este proyecto: Porque puede ir cambiando conforme reciba retroalimentación de los artistas y clientes, permitiendo adaptar las funciones y requisitos durante el desarrollo en lugar de tener que definir todo desde el principio,**
 
 ### Alternativas descartadas
 
-**Alternativa 1:**
+**Alternativa 1: Proceso Unificado**
 
-*Por qué la descarté:*
+*Por qué la descarté: Porque, aunque este modelo permmite trabajar de forma iterativa y adaptarse a cambios, está más orientado a mantener una mayor planificación del proyecto. Para mi sistema preferí un modelo más flexible que permita cambiar prioridades y requisitos rápidamente conforme reciba retroalimentación.*
 
-**Alternativa 2:**
+**Alternativa 2: Prototipado**
 
-*Por qué la descarté:*
+*Por qué la descarté: Aunque sería útil para diseñar y validar la interfaz del sistema, el principal reto del proyeto no es solo la experiencia del usuario, sino definir y adaptar las reglas del proceso de las comisiones. Por eso Ágil resulta más conveniente para modificar y priorizar funcionalidades durante tood el desarrollo*
 
 ---
 
