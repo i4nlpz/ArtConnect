@@ -4,7 +4,7 @@
 
 **Autor: Ian Adolfo López Maldonado**
 
-**Fecha de la última versión: 18/08/26**
+**Fecha de la última versión: 01/09/26**
 
 **Repositorio: ArtConnect**
 
@@ -100,25 +100,10 @@ ArtConnect es un sistema que facilita la contratación y gestión de trabajos ar
 
 **Alternativa 1: Proceso Unificado**
 
-*Por qué la descarté: Porque, aunque este modelo permmite trabajar de forma iterativa y adaptarse a cambios, está más orientado a mantener una mayor planificación del proyecto. Para mi sistema preferí un modelo más flexible que permita cambiar prioridades y requisitos rápidamente conforme reciba retroalimentación.*
+- Porque, aunque este modelo permmite trabajar de forma iterativa y adaptarse a cambios, está más orientado a mantener una mayor planificación del proyecto. Para mi sistema preferí un modelo más flexible que permita cambiar prioridades y requisitos rápidamente conforme reciba retroalimentación.
 
 **Alternativa 2: Prototipado**
 
-*Por qué la descarté: Aunque sería útil para diseñar y validar la interfaz del sistema, el principal reto del proyeto no es solo la experiencia del usuario, sino definir y adaptar las reglas del proceso de las comisiones. Por eso Ágil resulta más conveniente para modificar y priorizar funcionalidades durante tood el desarrollo*
+- Aunque sería útil para diseñar y validar la interfaz del sistema, el principal reto del proyeto no es solo la experiencia del usuario, sino definir y adaptar las reglas del proceso de las comisiones. Por eso Ágil resulta más conveniente para modificar y priorizar funcionalidades durante tood el desarrollo
 
 ---
-
-## Antes de entregar
-
-Reviso que el documento cumpla lo siguiente:
-
-- [ ] La descripción del apartado 1 se entiende sin ser del área
-- [ ] Hay al menos dos tipos de usuario con necesidades distintas
-- [ ] Identifiqué un conflicto real entre usuarios
-- [ ] El alcance dice qué queda fuera, no solo qué queda dentro
-- [ ] Las exclusiones son específicas, no genéricas
-- [ ] Identifiqué el tipo de sistema y al menos dos atributos de calidad
-- [ ] Anoté al menos tres reglas de negocio no obvias
-- [ ] Justifiqué el ciclo de vida contra dos alternativas descartadas
-- [ ] El documento está en mi repositorio y se puede leer desde el navegador
-- [ ] Borré todas las instrucciones en cursiva de la plantilla
