@@ -70,9 +70,9 @@ ArtConnect es un sistema que facilita la contratación y gestión de trabajos ar
 
 ## 4. Tipo de sistema y restricciones
 
-**Tipo de sistema: Web y SaaS**
+**Tipo de sistema: Web y SaaS a la medida**
 
-**Por qué es de ese tipo: Porque este sistema permite será una plataforma accesible mediante Intenrnet que permitirá a clientes y artistas utilizar sus funciones sin neesidad de instalar el sistema en sus dispositivos. El sistema almacenará y procesará información relacionada con solicitudes, cotizaciones, acuerdos, avances y encargos.**
+**Por qué es de ese tipo: Porque este sistema permite será una plataforma accesible mediante Intenrnet que permitirá a clientes y artistas utilizar sus funciones sin necesidad de instalar el sistema en sus dispositivos. El sistema almacenará y procesará información relacionada con solicitudes, cotizaciones, acuerdos, avances y encargos. Y esta diseñado específicamente para gestionar las necesidades de usuarios que realizan trabajos por encargo.**
 
 **Atributos de calidad que impone:**
 
@@ -94,7 +94,7 @@ ArtConnect es un sistema que facilita la contratación y gestión de trabajos ar
 
 **Modelo elegido: Ágil**
 
-**Por qué le conviene a este proyecto: Porque puede ir cambiando conforme reciba retroalimentación de los artistas y clientes, permitiendo adaptar las funciones y requisitos durante el desarrollo en lugar de tener que definir todo desde el principio,**
+**Por qué le conviene a este proyecto: Porque puede ir cambiando conforme reciba retroalimentación de los artistas y clientes, permitiendo adaptar las funciones y requisitos durante el desarrollo en lugar de tener que definir todo desde el principio.**
 
 ### Alternativas descartadas
 
@@ -104,6 +104,6 @@ ArtConnect es un sistema que facilita la contratación y gestión de trabajos ar
 
 **Alternativa 2: Prototipado**
 
-- Aunque sería útil para diseñar y validar la interfaz del sistema, el principal reto del proyeto no es solo la experiencia del usuario, sino definir y adaptar las reglas del proceso de las comisiones. Por eso Ágil resulta más conveniente para modificar y priorizar funcionalidades durante tood el desarrollo
+- Aunque sería útil para diseñar y validar la interfaz del sistema, el principal reto del proyeto no es solo el UX, sino definir y adaptar las reglas del proceso de las comisiones. Por eso el modelo Ágil resulta más conveniente para modificar y priorizar funcionalidades durante todo el desarrollo.
 
 ---
