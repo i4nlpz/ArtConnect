@@ -23,7 +23,7 @@ ArtConnect es un sistema que facilita la contratación y gestión de trabajos ar
 
 ### El Problema
 
-**Actualmente los encargos artísticos suelen gestionarse mediante redes sociales, apps de mensajes y conversaciones informales. Esto puede provocar que la información sobre el precio, las características de la obra, las fechas de entrega y otros acuerdos queden dispersos. Como resultado de esto, tanto el cliente como el artista pueden tener dificultades para consultar información como el precio, características del dibujo, fechas de entrega ya que estos acuerdos quedarían dispersos en texto, imagenes o archivos, o que haya una falta de seguimiento ya qué no existe algún lugar donde se pueda consultar el estado de la comisión.**
+**Actualmente los encargos artísticos suelen gestionarse mediante redes sociales, apps de mensajes y conversaciones informales. Esto puede provocar que la información sobre el precio, las características de la obra, las fechas de entrega y otros acuerdos queden dispersos en textos, imagenes o archivos, o que haya una falta de seguimiento ya qué no existe algún lugar donde se pueda consultar el estado de la comisión.**
 
 ### Cómo se resuelve hoy sin el sistema
 **El cliente normalmente contacta el artista mediante redes sociales (ya sea twitter, instagram facebook, etc.) o servicios de mensajería, explica lo que quiere y recibe una cotización. Luego, ambos acuerdan el precio, detalles y la fecha de entrega mediante mensajes. Durante el proceso, el artista puede enviar avances para recibir comentarios y el cliente solicita modificaciones. Los pagos y anticipos también pueden coordinarse por separado. Si surge algún cambio o desacuerdo, esto se debe revisar manualmente para determinar qué se había acordado**
