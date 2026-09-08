@@ -64,7 +64,7 @@ ArtConnect es un sistema que facilita la contratación y gestión de trabajos ar
 **El procesamiento de pagos queda fuera del alcance porque requeriría implementar mecanísmos adicionales de seguridad, protección contra fraude, reembolsos y resolución de disputas. Además, implicaría una complejidad técnica y legal que no es necesaria para resolver el problema principal que aborda este sistema.**
 
 ### Funcionalidad futura: Sistema de pagos con proteción para clientes y artistas
-**Me gustaría que este sistema pudiera recibir el pago del cliente, retenerlo durante el proceso y liberarlo al artista cuando se cumplan las condiciones acordadas. También permitiría solicitar reembolsos o iniciar disputas en caso de incumplimiento. Esta funcionalidad queda fuera del alcance actual debido a la complejidad técnica, de seguridad y de gestión de disputas que implicaría**
+**Me gustaría que este sistema pudiera recibir el pago del cliente, retenerlo durante el proceso y liberarlo al artista cuando se cumplan las condiciones acordadas. También permitiría solicitar reembolsos o iniciar disputas en caso de incumplimiento. Esta funcionalidad queda fuera del alcance actual debido a la complejidad técnica, de seguridad y de gestión de disputas que implicaría, pero sería muy útil porque permitiría ofrecer mayor seguridad y confianza en las transacciones, además de ayudar a diferenciarse y posicionarse en el mercado frente a otras plataformas de comisiones artísticas.**
 
 ---
 
