@@ -57,8 +57,8 @@ ArtConnect es un sistema que facilita la contratación y gestión de trabajos ar
 ### Explícitamente fuera del alcance - Tres cosas que el sistema NO hace
 
 1. No procesa pagos ni anticipos entre clientes y artistas.
-2. No crea ni edita las obras artísticas
-3. No garantiza que un artista o cliente cumpla económiamente con sus obligaciones fuera de la plataforma
+2. No crea ni edita las obras artísticas.
+3. No garantiza que un artista o cliente cumpla económiamente con sus obligaciones fuera de la plataforma.
 
 ### Por qué queda fuera: Exclusión de pagos
 **El procesamiento de pagos queda fuera del alcance porque requeriría implementar mecanísmos adicionales de seguridad, protección contra fraude, reembolsos y resolución de disputas. Además, implicaría una complejidad técnica y legal que no es necesaria para resolver el problema principal que aborda este sistema.**
@@ -78,7 +78,7 @@ ArtConnect es un sistema que facilita la contratación y gestión de trabajos ar
 
 | Atributo | Por qué importa en mi caso | Qué pasa si no se cumple |
 |---|---|---|
-|Seguridad|Porque almacenará info. personal, conversaciones, archivos y acuerdos entre clietes y artistas|Usuarios no autorizados podrían acceder o modificar información de otros usuarios|
+|Seguridad|Porque almacenará info. personal, conversaciones, archivos y acuerdos entre clientes y artistas|Usuarios no autorizados podrían acceder o modificar información de otros usuarios|
 |Usabilidad|Porque el cliente y artista deben poder utilizar el sistema sin conocimientos técnicos|Los usuarios podrían confundirse, cometer errores o preferir continuar utilizando mensajes y redes sociales|
 |Integridad|Los precios, fechas, condiciones y modificaciones deben conservarse correctamente para que exista un registro confiable de los acuerdos|Podrían surgir conflictos porque el cliente y artista tendrían información diferente sobre lo acordado|
 
@@ -100,7 +100,7 @@ ArtConnect es un sistema que facilita la contratación y gestión de trabajos ar
 
 **Alternativa 1: Proceso Unificado**
 
-- Porque, aunque este modelo permmite trabajar de forma iterativa y adaptarse a cambios, está más orientado a mantener una mayor planificación del proyecto. Para mi sistema preferí un modelo más flexible que permita cambiar prioridades y requisitos rápidamente conforme reciba retroalimentación.
+- Porque, aunque este modelo permite trabajar de forma iterativa y adaptarse a cambios, está más orientado a mantener una mayor planificación del proyecto. Para mi sistema preferí un modelo más flexible que permita cambiar prioridades y requisitos rápidamente conforme reciba retroalimentación.
 
 **Alternativa 2: Prototipado**
 
