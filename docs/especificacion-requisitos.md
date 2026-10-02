@@ -7,10 +7,6 @@
 **Versión:** 1.4  
 **Fecha de la última actualización:** 30 de septiembre de 2026
 
-**Revisado por:** Jorge Eduardo García Hernández  
-**Rol:** Dupla  
-**Fecha de revisión:** 30 de septiembre de 2026
-
 ---
 
 ## 1. Propósito y alcance
@@ -379,3 +375,12 @@ Si fue aprobada, la comisión conserva las condiciones correspondientes a la mod
 | 28/09/2026 | RF-001 | Se especificaron los datos obligatorios de una solicitud de comisión: descripción del trabajo, estilo solicitado, cantidad de elementos, nivel de detalle y referencias. | Mejorar la verificabilidad del requisito y evitar ambigüedad sobre qué información debe contener una solicitud. |
 | 28/09/2026 | Conflicto entre usuarios / RF-008, RF-009 y RF-011 | Se documentó cómo se resuelve el conflicto entre Cliente y Artista cuando una modificación afecta el precio, alcance o fecha de entrega. | Cumplir con la revisión de consistencia, dejando claro que el artista propone nuevas condiciones y el cliente debe aceptarlas antes de incorporar el cambio a la comisión. |
 | 29/09/2026 | Trazabilidad | Se completó la tabla de trazabilidad relacionando los requisitos funcionales y no funcionales con su origen, casos de uso y elementos correspondientes del prototipo. | Garantizar la conexión entre los requisitos definidos, los objetivos representados en los casos de uso y su representación en el prototipo. |
+| 30/10/2026 | Revisión de dupla | Se realizó una revisión general del documento verificando redacción, consistencia, requisitos, casos de uso y trazabilidad. | Registrar la revisión realizada por la dupla antes de la entrega final. |
+
+---
+
+## 8. Revisión de la dupla
+
+**Revisado por:** Jorge Eduardo García Hernández  
+**Rol:** Dupla  
+**Fecha de revisión:** 30 de septiembre de 2026
