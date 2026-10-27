@@ -1,0 +1,25 @@
+
+flowchart TD
+    web[App web]
+
+    subgraph api[API del sistema]
+        agenda[Agenda<br/>citas y horarios]
+        cobros[Cobros<br/>cuentas y pagos]
+        exp[Expedientes<br/>historial clínico]
+        notif[Notificador<br/>interfaz de envío]
+    end
+
+    db[(Base de datos)]
+    correo[Servicio de correo]
+
+    web --> agenda
+    web --> cobros
+    web --> exp
+    cobros -->|pregunta qué se atendió| agenda
+    cobros -->|enviarRecibo| notif
+    notif --> correo
+    agenda --> db
+    cobros --> db
+    exp --> db
+
+    style cobros fill:#ff5d00,color:#fff

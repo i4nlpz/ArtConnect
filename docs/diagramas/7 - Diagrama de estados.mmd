@@ -1,0 +1,10 @@
+stateDiagram-v2
+    [*] --> Agendada
+    Agendada --> Confirmada: el dueño confirma
+    Agendada --> Cancelada: se cancela a tiempo
+    Confirmada --> Atendida: llega a consulta
+    Confirmada --> NoAsistio: no se presenta
+
+    Atendida --> [*]
+    Cancelada --> [*]
+    NoAsistio --> [*]
