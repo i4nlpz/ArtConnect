@@ -1,0 +1,13 @@
+flowchart TB
+
+    cliente([Cliente])
+    artista([Artista])
+    archivos[[Servicio de almacenamiento de archivos]]
+
+    sistema[ArtConnect<br/>Sistema de gestión de comisiones artísticas]
+
+    cliente -->|"solicita comisiones, revisa cotizaciones,<br/>consulta avances y solicita modificaciones"| sistema
+    artista -->|"recibe solicitudes, emite cotizaciones,<br/>publica avances y responde modificaciones"| sistema
+
+    sistema -->|"guarda referencias, avances y archivos finales"| archivos
+    archivos -->|"entrega archivos cuando se consultan"| sistema

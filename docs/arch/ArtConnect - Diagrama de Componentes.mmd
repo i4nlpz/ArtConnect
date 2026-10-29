@@ -1,0 +1,27 @@
+flowchart TB
+
+    web[App web]
+
+    subgraph servidor["Servidor ArtConnect"]
+        usuarios[Usuarios y accesos]
+        solicitudes[Solicitudes y cotizaciones]
+        comisiones[Comisiones y seguimiento]
+        comunicacion[Comunicación]
+    end
+
+    db[(Base de datos)]
+
+    web --> solicitudes
+    web --> comisiones
+    web --> comunicacion
+    web --> usuarios
+
+    solicitudes --> usuarios
+    solicitudes --> comisiones
+    comisiones --> comunicacion
+    comunicacion --> comisiones
+
+    usuarios --> db
+    solicitudes --> db
+    comisiones --> db
+    comunicacion --> db

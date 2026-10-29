@@ -1,0 +1,18 @@
+flowchart TB
+
+    cliente([Cliente])
+    artista([Artista])
+
+    subgraph artconnect["ArtConnect"]
+        web[App web<br/>navegador en celular o computadora]
+        server[Servidor ArtConnect<br/>monolito modular]
+        db[(Base de datos<br/>PostgreSQL)]
+        storage[[Almacenamiento de archivos]]
+
+        web -->|"HTTPS / JSON"| server
+        server -->|"lee y escribe"| db
+        server -->|"guarda y recupera archivos"| storage
+    end
+
+    cliente -->|"usa"| web
+    artista -->|"usa"| web
