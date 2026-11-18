@@ -90,7 +90,7 @@ Lo realmente nuevo es solo esto: (1) que una modificación pueda iniciarla el Ar
 
 **De dónde sale este número.**
 - **Diseño y documentación (3.5 h):** editar RF-008, RF-009 y RF-010 (1 h), agregar el flujo D y ajustar CU-06 (0,5 h), actualizar el diagrama de clases (0,5 h) y las dos pantallas del prototipo más la trazabilidad (1.5 h).
-- **Implementación (15 h):** supuse que construir todo CU-06 costaría unas 24 h para una sola persona. Este cambio reutiliza la propuesta de condiciones, la decisión del cliente y el versionado de condiciones, así que solo agrega el inicio desde el artista, dos datos nuevos y el ajuste de pantallas, aproximadamente un tercio de ese trabajo.
+- **Implementación (16 h):** supuse que construir todo CU-06 costaría unas 24 h para una sola persona. Este cambio reutiliza la propuesta de condiciones, la decisión del cliente y el versionado de condiciones, así que solo agrega el inicio desde el artista, dos datos nuevos y el ajuste de pantallas, aproximadamente un tercio de ese trabajo.
 - **Pruebas (6 h):** cerca de media hora por cada uno de los 7 criterios de aceptación de la solicitud, más una hora de regresión sobre CU-06.
 - **Supuestos:** una sola persona, horas efectivas de trabajo. Como el sistema todavía no está implementado, no tengo datos históricos y la estimación es por analogía, no medida.
 - **No incluye:** avisos automáticos, despliegue ni la revisión de la dupla.
